@@ -16,6 +16,11 @@ where Company_Name = 'Thapar University' -- Oh, so Thapar University only has 1 
 select count(distinct [Job_Roles]) as Total_job_roles from [Software Industry].dbo.Salary_Dataset_with_Extra_Featu$
 select distinct [Job_Roles] as Job_Roles from [Software Industry].dbo.Salary_Dataset_with_Extra_Featu$ -- 11 job roles
 
+select Job_Roles, count(*) as data_count
+from [Software Industry].dbo.Salary_Dataset_with_Extra_Featu$
+group by Job_roles
+order by data_count desc
+
 -- How about average salary by job role?
 select [Job_Roles] as Job_Role, AVG([Salary]) as average_salary
 from [Software Industry].dbo.Salary_Dataset_with_Extra_Featu$
@@ -55,6 +60,15 @@ select [Location] as Location, AVG([Salary]) as average_salary
 from [Software Industry].dbo.Salary_Dataset_with_Extra_Featu$
 group by [Location]
 order by [average_salary] desc -- As we can see Mumbai has the highest salary average out of all the other locations
+
+-- Let's see what job roles there are in Mumbai
+select distinct Job_Roles, Location
+from [Software Industry].dbo.Salary_Dataset_with_Extra_Featu$
+where Location = 'Mumbai'
+
+select distinct Job_Roles, Location
+from [Software Industry].dbo.Salary_Dataset_with_Extra_Featu$
+where Location = 'Kerala'
 
 -- let's look at the sum of salary by location
 select [Location] as Location, SUM([Salary]) as average_salary
@@ -113,3 +127,10 @@ order by Salary desc
 select * from [Software Industry].dbo.Salary_Dataset_with_Extra_Featu$
 where Rating >= 4 and Employment_Status = 'Contractor'
 order by Salary desc
+
+-- Finally, let's take a look at the salary difference between different employment status'
+select Employment_Status, AVG(Salary) as average_salary
+from [Software Industry].dbo.Salary_Dataset_with_Extra_Featu$
+group by Employment_Status
+order by average_salary desc
+
