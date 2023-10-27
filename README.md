@@ -1,9 +1,9 @@
 ## Project Title: Tech Industry Salary Analysis
 
-**Project Description:**
+### Project Description :
 In the dynamic and ever-evolving world of technology, understanding salary trends and patterns is crucial for both professionals and organizations. This project represents a comprehensive analysis of salaries within the tech industry, with the aim of providing valuable insights into compensation structures and factors influencing earnings.
 
-**Project Goals:**
+### Project Goals :
 
 1. Data Collection: The project began with the acquisition of a diverse dataset that contained information on tech industry salaries. This data was sourced from various reliable sources and represented a broad range of roles, experience levels, and locations within the industry.
 
@@ -17,10 +17,10 @@ In the dynamic and ever-evolving world of technology, understanding salary trend
 
 6. Recommendations: Based on the project's findings, recommendations were formulated for both professionals and tech organizations. These recommendations included strategies for salary negotiation, career development, and talent acquisition practices.
 
-**Impact:**
+### Impact :
 The project provided valuable insights that can be utilized by job seekers, employers, and policymakers in the tech industry. It empowers professionals to make informed decisions about their careers and compensation negotiations, while also helping organizations remain competitive in the talent market.
 
-**Conclusion:**
+### Conclusion :
 The Tech Industry Salary Analysis project combined the power of SQL data analysis and Tableau data visualization to offer a comprehensive view of salary trends within the tech sector. This project is a valuable resource for anyone interested in understanding the complexities of tech industry compensation and its influencing factors.
 
-**Dashboard **: https://public.tableau.com/app/profile/rangga.andhito.damahindra
+**Dashboard**: https://public.tableau.com/app/profile/rangga.andhito.damahindra
