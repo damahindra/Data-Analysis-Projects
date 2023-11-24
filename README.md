@@ -24,4 +24,4 @@ The project provided valuable insights that can be utilized by job seekers, empl
 The Tech Industry Salary Analysis project combined the power of SQL data analysis and Tableau data visualization to offer a comprehensive view of salary trends within the tech sector. This project is a valuable resource for anyone interested in understanding the complexities of tech industry compensation and its influencing factors.
 
 ### Dashboard: 
-https://public.tableau.com/app/profile/rangga.andhito.damahindra
+(https://public.tableau.com/app/profile/rangga.andhito.damahindra/viz/TechSalarySourceKaggle/TechSalaryDashboard)https://public.tableau.com/app/profile/rangga.andhito.damahindra/viz/TechSalarySourceKaggle/TechSalaryDashboard
